@@ -1,0 +1,124 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(13, [col] 1fr);
+    grid-template-rows: repeat(4, [row] 1fr);
+    grid-gap: 1rem;
+}
+
+.item {
+    min-height: 80px;
+}
+
+.it1 {
+    grid-column: col 1 / col 3;
+    grid-row: row 1 / row 3;
+    background-image: url(./img/06ed7737437ec86f5a120223ea0e514e.jpg);
+}
+
+.it2 {
+    grid-column: col 3 / col 4;
+    grid-row: row 1;
+    background-image: url(./img/1617044056_30-p-oboi-fon-les-31.jpg);
+}
+
+.it3 {
+    grid-column: col 4 / col 5;
+    grid-row: row 1;
+    background-image: url(./img/1626945077_20-kartinkin-com-p-fon-les-sverkhu-krasivo-23.jpg);
+}
+
+.it4 {
+    grid-column: col 5 / col 6;
+    grid-row: row 1;
+    background-image: url(./img/187867_or.jpg);
+}
+
+.it5 {
+    grid-column: col 6 / col 10;
+    grid-row: row 1 / span 4;
+    background-image: url(./img/3b20f34c-10ab-44db-b86d-818fb3736872.jpeg);
+}
+
+.it6 {
+    grid-column: col 10 / col 12;
+    grid-row: row 1 / row 3;
+    background-image: url(./img/53d189dfcd54fa9ecae756ddf5a7c2ee.jpg);
+}
+
+.it7 {
+    grid-column: col 12 / col 13;
+    grid-row: row 1;
+    background-image: url(./img/d9aafb971fafafc28910d59d77a8df0f.jpeg);
+}
+
+.it8 {
+    grid-column: col 13;
+    grid-row: row 1;
+    background-image: url(./img/Exotic-tropical-beach-sunse.jpg);
+}
+
+.it9 {
+    grid-column: col 3 / col 4;
+    grid-row: row 2;
+    background-image: url(./img/full-e9db3768a5c1aaf9629833982f25e6b1.jpg);
+}
+
+.it10 {
+    grid-column: col 4 / col 6;
+    grid-row: row 2 / row 4;
+    background-image: url(./img/g586474.jpg);
+}
+
+.it11 {
+    grid-column: col 1 / col 2;
+    grid-row: row 3;
+    background-image: url(./img/kabancev-yurii-zerkalo-2018-379938.jpg);
+}
+
+.it12 {
+    grid-column: col 1 / col 2;
+    grid-row: row 4;
+    background-image: url(./img/Kavkazskie_gory.jpg);
+}
+
+.it13 {
+    grid-column: col 2 / col 4;
+    grid-row: row 3 / span 2;
+    background-image: url(./img/les-priroda-fon-2417.jpg);
+}
+
+.it14 {
+    grid-column: col 4 / col 5;
+    grid-row: row 4;
+    background-image: url(./img/shutterstock_49865158-600x600.jpg);
+}
+
+.it15 {
+    grid-column: col 5 / col 6;
+    grid-row: row 4;
+    background-image: url(./img/teberdinsky-pic668-668x444-6439.jpg);
+}
+
+.it16 {
+    grid-column: col 12 / col 13;
+    grid-row: row 2;
+    background-image: url(./img/upload-shutterstock_109674992-pic905v-895x505-10385.jpg);
+}
+
+.it17 {
+    grid-column: col 13;
+    grid-row: row 2;
+    background-image: url(./img/v4AAAgKhmOA-960.jpg);
+}
+
+.it18 {
+    grid-column: col 10 / col 12;
+    grid-row: row 3 / span 2;
+    background-image: url(./img/vershina2.jpg);
+}
+
+.it19 {
+    grid-column: col 12 / span 2;
+    grid-row: row 3 / span 2;
+    background: url(./img/Без\ названия.jpg);
+}
